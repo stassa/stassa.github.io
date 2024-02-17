@@ -14,7 +14,7 @@ We represent a maze as a Prolog list-of-lists where each sub-list is a row in a
 grid of map tiles and each element is a tile in the grid. We store the map as
 the third argument of a Prolog term `maze/3`, like this:
 
-```Prolog
+```prolog
  maze(tessera_1,
       7-7,
       [ [s, f, f, w, f, f, f],
